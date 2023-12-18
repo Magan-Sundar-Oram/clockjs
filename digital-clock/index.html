@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Clock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container {
+            /* width: 100vw; */
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h2,
+        h1 {
+            color: #fff;
+        }
+        h1 {
+            padding: 5px 15px;
+            border: 1px outset blueviolet;
+            font-size: 5rem;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 0px 274px 16px rgba(99, 0, 247, 1);
+            -moz-box-shadow: 0px 0px 274px 16px rgba(99, 0, 247, 1);
+            box-shadow: 0px 0px 274px 16px rgba(99, 0, 247, 1);
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <h2>Teminal Clock</h2>
+        <h1 id="clock"></h1>
+    </div>
+
+    <script src="terminalClock.js"></script>
+</body>
+
+</html>
